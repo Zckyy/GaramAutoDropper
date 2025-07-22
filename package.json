@@ -1,0 +1,18 @@
+{
+  "name": "discordselfbot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.7.0",
+    "dotenv": "^17.2.0",
+    "libsodium-wrappers": "^0.7.15",
+    "tweetnacl": "^1.0.3"
+  }
+}
