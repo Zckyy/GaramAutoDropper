@@ -34,6 +34,8 @@ client.on('ready', async () => {
 client.on('messageCreate', async (message) => {
   if (message.author.id === BOT_ID && message.mentions.users.has(client.user.id)) {
     log(`Bot mentioned me! Message: "${message.content}"`);
+    // wait for a moment before sending the command
+    await new Promise(resolve => setTimeout(resolve, 2000));
     await sendDropCommand();
   }
 });
