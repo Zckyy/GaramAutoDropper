@@ -37,6 +37,8 @@ A Discord self-bot that automatically responds to mentions from a specific bot b
    node app.js
    ```
 
+>> YOU MUST HAVE REMINDERS ENABLED FROM GARAM FOR THIS TO WORK `/remind toggle:on` IS THE COMMAND
+
 ## How It Works
 
 1. The bot connects to Discord using your user token
